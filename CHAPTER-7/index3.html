@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: grid;
+            background-color: aquamarine;
+            height: 10vh;
+            justify-content: flex-end;
+            padding-top:50px;
+        }
+        ul li{
+            display: inline-block;
+            padding-right:20px ;
+        } 
+        .container{
+            display: grid;
+            background-color: coral;
+            height: 40vh;
+            margin-top: 20px;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            justify-content: space-between;
+            padding: 50px;
+        }
+        .v1{
+            background-color: chartreuse;
+        }
+        .v2{
+            background-color: rgb(236, 36, 143);
+        }
+        .v3{
+            background-color: rgb(102, 0, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptas aliquid ab expedita illum porro voluptatibus cupiditate pariatur sapiente beatae quaerat recusandae ullam esse a ipsum sint, dignissimos inventore reprehenderit suscipit aspernatur eveniet perspiciatis? Soluta, dignissimos reprehenderit doloribus quo ad eos illo recusandae doloremque delectus maxime. Minus, vero blanditiis sed totam repellendus dolor ipsam voluptatem deserunt at temporibus officia labore.</div>
+    <div class="box">
+        <div class="v1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, incidunt officia! Eaque labore ex assumenda voluptatum commodi deleniti, a optio! Voluptates inventore reiciendis odio praesentium quae assumenda autem molestias possimus?</div>
+        <div class="v2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur illum quas deleniti at eaque beatae neque corrupti? Aperiam explicabo accusamus obcaecati aut, iusto beatae cumque doloribus tenetur at distinctio minima.</div>
+        <div class="v3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corrupti ex laborum fuga impedit repellendus veritatis, nostrum incidunt itaque ipsum, possimus sit quam repudiandae modi porro accusamus voluptate consequuntur. Quidem?</div>
+    </div>
+    
+</body>
+</html>

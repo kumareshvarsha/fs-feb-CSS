@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: aquamarine;
+            height: 15vh;
+            display: grid;
+            justify-content: flex-end;
+            padding-top:50px;
+        }
+        ul li {
+            display: inline-block;
+            padding-right:20px ;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: 40% 40%;
+            justify-content: space-between;
+            margin: 50px;
+        }
+        .container{            
+            background-color: coral;
+        }
+        .container2{
+            background-color: rgb(31, 176, 239);
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box">
+    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptas aliquid ab expedita illum porro voluptatibus cupiditate pariatur sapiente beatae quaerat recusandae ullam esse a ipsum sint, dignissimos inventore reprehenderit suscipit aspernatur eveniet perspiciatis? Soluta, dignissimos reprehenderit doloribus quo ad eos illo recusandae doloremque delectus maxime. Minus, vero blanditiis sed totam repellendus dolor ipsam voluptatem deserunt at temporibus officia labore.</div>
+    <div class="container2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptas aliquid ab expedita illum porro voluptatibus cupiditate pariatur sapiente beatae quaerat recusandae ullam esse a ipsum sint, dignissimos inventore reprehenderit suscipit aspernatur eveniet perspiciatis? Soluta, dignissimos reprehenderit doloribus quo ad eos illo recusandae doloremque delectus maxime. Minus, vero blanditiis sed totam repellendus dolor ipsam voluptatem deserunt at temporibus officia labore.</div>
+    </div>
+    
+</body>
+</html>
