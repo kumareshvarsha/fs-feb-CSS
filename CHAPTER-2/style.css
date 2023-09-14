@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    background-color: blueviolet;
+    color: beige;
+}
+.container{
+    color: darkred;
+}
+.jp{
+    background-image: url('b17.jpg');
+    width: 500px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: 400px 300px;
+    /* background-attachment: fixed; */
+}
+.sandy {
+    background:pink url('b18.jpg') no-repeat;
+}

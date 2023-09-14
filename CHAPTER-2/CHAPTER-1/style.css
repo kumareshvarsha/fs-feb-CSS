@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: red;
+}
+#sony{
+    background-color: pink;
+}
+.one{
+    color: green;
+
+}
+.two{
+    height: 100px;
+}
