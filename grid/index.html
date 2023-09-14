@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+            }
+            .container{
+                background-color:azure;
+                display: grid;
+                grid-template-columns:20vw 60vw 20vw;
+                grid-template-rows:25vh 50vh 25vh ;
+                text-align: center;
+                
+            }
+            .header{
+                background-color:aqua;   
+                grid-column:1/4 ;
+                grid-row: 1/2; 
+                margin-bottom: 10px;
+                padding:35px;
+            }
+            .left{
+                background-color: green;
+                grid-column:1/2 ;
+                grid-row:2/3 ;
+                margin-right: 10px;
+                padding:35px;
+            }
+            .middle{
+                background-color: brown;
+                grid-column:2/3 ;
+                grid-row:2/3 ;
+                margin-right: 10px;
+                padding:35px;
+            }
+            .right{
+                background-color: aquamarine;
+                grid-column:3/4 ;
+                grid-row:2/3 ;
+                padding:35px;
+            }
+            .footer{
+                background-color: blue;
+                grid-column:1/4 ;
+                grid-row:3/4 ;
+                margin-top: 10px;
+                padding:35px;
+            }
+
+        </style>    
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">header</div>
+            <div class="left">left</div>
+            <div class="middle">middle</div>
+            <div class="right">right</div>
+            <div class="footer">footer</div>
+        </div>
+    </body>
+</html>

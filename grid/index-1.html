@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            .container{
+                display:grid;
+                grid-template-columns:25vw 25vw 25vw 25vw ;
+                grid-template-rows:15vh 20vh 50vh 15vh ;
+                text-align: center;
+            }
+            .header{
+                background-color: aquamarine;
+                grid-column: 1/5;
+                grid-row: 1/2;
+                margin-bottom: 10px;
+                padding: 15px;
+            }
+            .abc{
+                background-color: blue;
+                grid-column: 1/2;
+                grid-row:2/3;
+                margin-right: 10px;
+                padding: 35px;
+            }
+            .efg{
+                background-color: blue;
+                grid-column: 2/3;
+                grid-row:2/3;
+                margin-right: 10px;
+                padding: 35px;
+            }
+            .xyz{
+                background-color: blue;
+                grid-column: 3/4;
+                grid-row:2/3;
+                padding: 35px;
+                margin-right: 10px;
+            }
+            .sider{
+                background-color: blueviolet;
+                grid-column:4/5;
+                grid-row:2/4;
+                padding: 35px;
+            }
+            .main{
+                background-color: brown;
+                grid-column: 1/4;
+                grid-row: 3/4;
+                margin-top: 10px;
+                margin-right: 10px;
+                padding: 35px;
+            }
+            .footer{
+                background-color: yellowgreen;
+                grid-column: 1/5;
+                grid-row: 4/5;
+                margin-top: 10px;
+                padding: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">header</div>
+            <div class="abc">small box 1</div>
+            <div class="efg">small box 2</div>
+            <div class="xyz">small box 3</div>
+            <div class="sider">sider</div>
+            <div class="main">main content</div>
+            <div class="footer">footer</div>
+        </div>
+    </body>
+</html>

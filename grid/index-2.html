@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin:0;
+                padding:0;
+            }
+            .container{
+                display: grid;
+                grid-template-columns: 30vw 35vw 35vw;
+                grid-template-rows: 20vh 20vh 60vh;
+                text-align: center;
+            }
+            .header{
+                background-color: aqua;
+                grid-column: 1/4;
+                grid-row: 1/2;
+                padding:30px;
+            }
+            .search{
+                background-color: blue;
+                grid-column: 1/3;
+                grid-row: 2/3;
+                margin-top:10px;
+                margin-right: 10px;
+                padding:30px;
+            }
+            .sidebar{
+                background-color: blueviolet;
+                grid-column: 3/4;
+                grid-row: 2/4;
+                margin-top:10px;
+                padding:30px;
+            }
+            .leftcolumn{
+                background-color: brown;
+                grid-column: 1/2;
+                grid-row: 3/4;
+                margin-top:10px;
+                margin-right: 10px;
+                padding:30px;
+            }
+            .middlecolumn{
+                background-color: chocolate;
+                grid-column: 2/3;
+                grid-row: 3/4;
+                margin-top:10px;
+                margin-right: 10px;
+                padding:30px;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">HEADER</div>
+            <div class="search">SEARCH</div>
+            <div class="sidebar">SIDEBAR</div>
+            <div class="leftcolumn">LEFT COLUMN</div>
+            <div class="middlecolumn">MIDDLE COLUMN</div>
+        </div>
+
+    </body>
+</html>
